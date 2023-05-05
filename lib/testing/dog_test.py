@@ -143,7 +143,7 @@ class TestDog:
             (joey.id, joey.name, joey.breed) == \
                 (1, "joey", "cocker spaniel")
         )
-    
+
     def test_updates_record(self):
         '''contains a method "update()" that updates an instance's corresponding database record to match its new attribute values.'''
         Dog.drop_table()
