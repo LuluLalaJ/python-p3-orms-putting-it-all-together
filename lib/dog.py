@@ -5,6 +5,7 @@ CURSOR = CONN.cursor()
 
 class Dog:
     def __init__(self, name, breed, id = None) -> None:
+        #set id as an argument is important for testing?
         self.id = id
         self.name = name
         self.breed = breed
